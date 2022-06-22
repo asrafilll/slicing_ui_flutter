@@ -9,6 +9,7 @@ class OtherPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: false,
         leadingWidth: 0,
+        elevation: 0.7,
         title: const Text(
           "Lainnya",
           style: TextStyle(
