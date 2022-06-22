@@ -9,6 +9,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
+        leadingWidth: 0,
         title: const Text(
           "Masuk",
           style: TextStyle(
