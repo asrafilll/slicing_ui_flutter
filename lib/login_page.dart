@@ -35,7 +35,8 @@ class LoginPage extends StatelessWidget {
             const SizedBox(height: 4),
             const TextField(
               decoration: InputDecoration(
-                contentPadding: EdgeInsets.symmetric(vertical: 12),
+                contentPadding:
+                    EdgeInsets.symmetric(vertical: 12, horizontal: 10),
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(6))),
               ),
@@ -44,9 +45,11 @@ class LoginPage extends StatelessWidget {
             const Text("Kata Sandi"),
             const SizedBox(height: 4),
             const TextField(
+              obscureText: true,
               decoration: InputDecoration(
                 suffixIcon: Icon(Icons.visibility_off),
-                contentPadding: EdgeInsets.symmetric(vertical: 12),
+                contentPadding:
+                    EdgeInsets.symmetric(vertical: 12, horizontal: 10),
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(6))),
               ),
