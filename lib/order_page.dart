@@ -6,6 +6,7 @@ class OrderPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         centerTitle: false,
         leadingWidth: 0,
@@ -20,10 +21,27 @@ class OrderPage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          const SizedBox(height: 28),
-          Row(
-            children: [],
-          )
+          Container(
+            padding: const EdgeInsets.symmetric(vertical: 24),
+            child: Image.asset(
+              'assets/images/order1.png',
+              width: 343,
+              height: 184,
+            ),
+          ),
+          Container(
+            height: 8,
+            color: const Color(0xffE0E0E0),
+            width: double.infinity,
+          ),
+          Container(
+            padding: const EdgeInsets.symmetric(vertical: 24),
+            child: Image.asset(
+              'assets/images/order2.png',
+              width: 343,
+              height: 184,
+            ),
+          ),
         ],
       ),
     );
