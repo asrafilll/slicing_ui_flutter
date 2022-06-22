@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas_akhir_mas_panji/home_page.dart';
+import 'package:tugas_akhir_mas_panji/main_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -59,7 +59,7 @@ class LoginPage extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (builder) => const HomePage()));
+                          builder: (builder) => const MainPage()));
                 },
                 style: ElevatedButton.styleFrom(
                   primary: const Color(0xFF3267E3),
